@@ -17,7 +17,7 @@ class panopto(nodes.General, nodes.Element):
 def html_visit_panopto_node(self, node):
     self.body.append("<figure>")
     self.body.append(
-        "<iframe src='https://rec.hi.is/Panopto/Pages/Embed.aspx?id="
+        "<iframe src='https://hi.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id="
         + node["id"]
         + "' width="
         + node["width"]

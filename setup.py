@@ -12,7 +12,7 @@ requires = ["Sphinx>=0.6", "setuptools"]
 
 setup(
     name="sphinxcontrib-panopto",
-    version="2.0",
+    version="2.0.1",
     description="Sphinx panopto applet extension",
     author="Solrun Einarsdottir",
     author_email="solrun.einarsdottir@gmail.com",
